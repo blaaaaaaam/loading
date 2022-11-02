@@ -21,6 +21,7 @@
     body {
       min-height: 100vh;
       min-height: -webkit-fill-available;
+      overflow: hidden;
     }
     html {
       height: -webkit-fill-available;
@@ -30,7 +31,7 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 5em;
+      font-size: clamp(3rem, 0rem + 10vw, 5rem);
       color: rgba(0,0,0,0);
       pointer-events: none;
       text-align: center;
